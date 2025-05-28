@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery - NutriFarm</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f5f0e6;
+    }
+    h1 {
+      color: #4e342e;
+    }
+    .image-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 2rem;
+    }
+    .image-grid a img {
+      width: 300px;
+      border-radius: 8px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .image-grid a:hover img {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
 
+  <div class="image-grid">
+    <a href="feedoffers.html">
+      <img src="images/feed1.jpg" alt="Our Team">
+    </a>
+    <a href="feedoffers.html">
+      <img src="images/feed2.jpg" alt="Our Products">
+    </a>
+    <a href="feedoffers.html">
+      <img src="images/feed3.jpg" alt="Our Farm">
+    </a>
+     <a href="feedoffers.html">
+      <img src="images/feed4.jpg" alt="Our Farm">
+    </a>
+  </div>
+</body>
+</html>
